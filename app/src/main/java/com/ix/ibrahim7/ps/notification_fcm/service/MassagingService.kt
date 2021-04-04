@@ -24,24 +24,21 @@ class MassagingService : FirebaseMessagingService() {
 
 
         if (remoteMessage.data[ALERT] == null) {
-            Log.e("eee title",remoteMessage.notification!!.title.toString())
-            Log.e("eee data",remoteMessage.data.toString())
-                    notificationManager.showNotification(
-                        1,
-                        remoteMessage.notification!!.title!!,
-                        remoteMessage.notification!!.body!!,
-                        Intent(
+            Log.e("eee title", remoteMessage.notification!!.title.toString())
+            Log.e("eee data", remoteMessage.data.toString())
+            notificationManager.showNotification(
+                    1,
+                    remoteMessage.notification!!.title!!,
+                    remoteMessage.notification!!.body!!,
+                    Intent(
                             applicationContext,
                             MainActivity::class.java
-                        )
                     )
-                }else{
-            Log.e("eee",remoteMessage.data.toString())
-            Log.e("eee",remoteMessage.notification.toString())
-
+            )
+        } else {
+            Log.e("eee", remoteMessage.notification.toString())
         }
     }
-
 
 
 }
