@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "322588556098",
+    "project_id": "laravelnotification-e3227",
+    "storage_bucket": "laravelnotification-e3227.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322588556098:android:55facef23c91e77ff926db",
+        "android_client_info": {
+          "package_name": "com.ix.ibrahim7.ps.notification_fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322588556098-ktoiapc3r83lgds1pm389hg3f6jdt4gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCiK7GcC0CA_sN2A-vfeuAKw_wDAYvYIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322588556098-ktoiapc3r83lgds1pm389hg3f6jdt4gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322588556098:android:91a4b747b0106609f926db",
+        "android_client_info": {
+          "package_name": "csdcs.cwec2f.fwef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322588556098-ktoiapc3r83lgds1pm389hg3f6jdt4gn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCiK7GcC0CA_sN2A-vfeuAKw_wDAYvYIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322588556098-ktoiapc3r83lgds1pm389hg3f6jdt4gn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
