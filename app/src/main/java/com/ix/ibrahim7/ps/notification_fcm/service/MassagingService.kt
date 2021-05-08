@@ -4,7 +4,7 @@ import android.content.Intent
 import android.util.Log
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import com.ix.ibrahim7.ps.notification_fcm.MainActivity
+import com.ix.ibrahim7.ps.notification_fcm.ui.activity.MainActivity
 
 class MassagingService : FirebaseMessagingService() {
 
