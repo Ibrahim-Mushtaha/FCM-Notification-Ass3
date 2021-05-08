@@ -11,4 +11,5 @@
     <dimen name="margin_8">8dp</dimen>
     <dimen name="padding_8">8dp</dimen>
     <dimen name="font_14">14dp</dimen>
+    <dimen name="font_18">18dp</dimen>
 </resources>

@@ -16,19 +16,65 @@
             android:id="@+id/toolbarLayout"
             layout="@layout/toolbar_layout" />
 
-
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/margin_16"
             android:layout_marginStart="16dp"
             android:layout_marginTop="12sp"
             android:fontFamily="@font/cairo_semibold"
-            android:text="@string/email"
-            android:textSize="@dimen/font_20"
+            android:text="@string/username"
+            android:textSize="@dimen/font_18"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbarLayout" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout23"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_16"
+            android:layout_marginVertical="@dimen/margin_4"
+            android:hint="@string/username"
+            android:textColorHint="@color/subtext"
+            app:boxCornerRadiusBottomEnd="@dimen/radius_4"
+            app:boxCornerRadiusBottomStart="@dimen/radius_4"
+            app:boxCornerRadiusTopEnd="@dimen/radius_4"
+            app:boxCornerRadiusTopStart="@dimen/radius_4"
+            app:boxStrokeColor="@color/input_box_tint"
+            app:hintTextColor="@color/subtext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@color/header"
+                android:textColorHint="@color/header"
+                android:textCursorDrawable="@drawable/shape_cursor"
+                app:backgroundTint="@color/border" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_8"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/cairo_semibold"
+            android:text="@string/email"
+            android:textSize="@dimen/font_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout23" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textInputLayout2"
@@ -73,7 +119,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/cairo_semibold"
             android:text="Password"
-            android:textSize="@dimen/font_20"
+            android:textSize="@dimen/font_18"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
