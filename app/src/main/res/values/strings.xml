@@ -9,4 +9,5 @@
     <string name="create_new_now">Create New Now</string>
     <string name="sign_up">Sign Up</string>
     <string name="username">Username</string>
+    <string name="require_field">Require Field</string>
 </resources>

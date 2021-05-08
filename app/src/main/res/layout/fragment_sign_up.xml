@@ -96,12 +96,12 @@
             app:layout_constraintTop_toBottomOf="@+id/textView14">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/txtphone"
+                android:id="@+id/txtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="start"
-                android:imeOptions="actionDone"
-                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
                 android:lines="1"
                 android:maxLines="1"
                 android:textColor="@color/header"
@@ -148,7 +148,7 @@
                 android:layout_height="match_parent"
                 android:gravity="start"
                 android:imeOptions="actionDone"
-                android:inputType="phone"
+                android:inputType="textPassword"
                 android:lines="1"
                 android:maxLines="1"
                 android:textColor="@color/header"
